@@ -105,7 +105,9 @@ Você precisa ter o **Python instalado (recomendado Python 3.10+)**
 
 ## Estrutura do Projeto
 
-📁 projeto-rag/
+
+```bash
+projeto-rag/
 │
 ├── main.py
 ├── pipeline.py
@@ -113,9 +115,9 @@ Você precisa ter o **Python instalado (recomendado Python 3.10+)**
 ├── chaves.env
 ├── requirements.txt
 │
-├── 📁 faiss-db/   
-└── 📁 documentos/        
-
+├── faiss-db/
+└── documentos/
+```
 --- 
 ##  Agradecimento
 
