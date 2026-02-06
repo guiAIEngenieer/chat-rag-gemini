@@ -57,7 +57,7 @@ Você precisa ter o **Python instalado (recomendado Python 3.10+)**
 1. Crie uma pasta dentro do diretório do projeto 
 2. Adicione dentro dela todos os PDFs que deseja usar como base de conhecimento
 3. Copie o diretório completo dessa pasta
-4. Abra o arquivo pipeline.py e procure pela linha: pdfs = load_pdfs(r"Cole o diretorio aqui")
+4. Abra o arquivo pipeline.py e procure pela linha: ```bash pdfs = load_pdfs(r"Cole o diretorio aqui") ```
 5. Cole o caminho completo da sua pasta no local indicado
 6. Salve o arquivo
 
