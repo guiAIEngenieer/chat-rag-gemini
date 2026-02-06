@@ -106,24 +106,15 @@ Você precisa ter o **Python instalado (recomendado Python 3.10+)**
 ## Estrutura do Projeto
 
 📁 projeto-rag/
-
 │
-
 ├── main.py
-
 ├── pipeline.py
-
 ├── api_connections.py
-
 ├── chaves.env
-
 ├── requirements.txt
-
 │
-
 ├── 📁 faiss-db/   
-# Banco vetorial salvo automaticamente
-└── 📁 documentos/        # PDFs adicionados pelo usuário
+└── 📁 documentos/        
 
 --- 
 ##  Agradecimento
