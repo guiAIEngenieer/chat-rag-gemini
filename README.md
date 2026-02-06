@@ -57,7 +57,7 @@ Você precisa ter o **Python instalado (recomendado Python 3.10+)**
 1. Crie uma pasta dentro do diretório do projeto 
 2. Adicione dentro dela todos os PDFs que deseja usar como base de conhecimento
 3. Copie o diretório completo dessa pasta
-4. Abra o arquivo pipeline.py e procure pela linha: ```bash pdfs = load_pdfs(r"Cole o diretorio aqui") ```
+4. Abra o arquivo pipeline.py e procure pela linha: ```pdfs = load_pdfs(r"Cole o diretorio aqui") ```
 5. Cole o caminho completo da sua pasta no local indicado
 6. Salve o arquivo
 
@@ -82,17 +82,17 @@ Você precisa ter o **Python instalado (recomendado Python 3.10+)**
 
 - Dentro do projeto
 1. abra o arquivo: chaves.env
-2. Cole sua chave no local indicado: GEMINI_API_KEY = "Cole sua Chave aqui"
+2. Cole sua chave no local indicado: ```GEMINI_API_KEY = "Cole sua Chave aqui"```
 3. Salve o arquivo
 
 ### Instalando as bibliotecas necessárias
 
 **Abra o terminal dentro da pasta do projeto e siga os passos abaixo.**
 
-1. No terminal digite: python -m venv .venv
-2. .venv\Scripts\Activate
-3. Linux ou Mac : source .venv/bin/activate
-4. pip install -r requirements.txt
+1. No terminal digite: ```python -m venv .venv```
+2. Depois ```.venv\Scripts\Activate```
+3. Linux ou Mac : ```source .venv/bin/activate```
+5. Por fim:```pip install -r requirements.txt ```
 
 ### Agora você pode iniciar o chat
 
