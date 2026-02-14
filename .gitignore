@@ -1,0 +1,15 @@
+
+.venv/
+venv/
+.env/
+
+
+__pycache__/
+*.pyc
+
+
+faiss-db/
+
+app.log/
+.DS_Store
+Thumbs.db
